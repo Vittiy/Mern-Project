@@ -4,4 +4,4 @@ package-lock.json
 
 # Config
 
-config/.env/
+/config/.env/
