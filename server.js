@@ -24,8 +24,8 @@ const userRoutes = require('./routes/user.routes');
 
 // routes
 app.use('/api/user', userRoutes);
-
-
+app.use('/api/user/g', userRoutes);
+app.use('/api/user/s', userRoutes);
 
 // server
 app.listen(process.env.PORT, () => {
